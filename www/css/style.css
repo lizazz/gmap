@@ -1,0 +1,68 @@
+html { height: 100% }
+
+      body { height: 100%; 
+			margin: 0; 
+			padding: 0 
+			}
+			
+			#map_canvas { height: 600px;
+						width:800px;
+						  margin-top: 10px;
+						  margin-left: 10px;
+						  float: left;
+						  display:inline-block;
+			}
+			
+			#content{height: 100px;
+					width: 100px;}
+		.user{
+			border-width:1px;
+		
+		}
+		
+		
+		th{
+			background-color: Gray;
+		}
+		
+		
+		tr:nth-child(even){
+			background-color: #f0f0f0;
+		}
+		#submit{
+			margin-top:10px;
+			margin-left:0px;
+		}
+		
+		#users{
+			height: 100px;
+		}
+		
+		.form{
+			margin-top:10px;
+			width:220px;
+			float: left;
+			display:inline-block;
+			margin-bottom:10px;
+		}
+		
+		.error{
+			position: absolute;
+			width: 200px;
+			height: 30px;
+			text-align: center;
+			line-height:30px;
+			margin-left:10px;
+			display: inline-block;
+			vertical-align:top;
+			background: #ebf5ff;
+			border: 1px solid #b1d3f5;
+		}
+		
+		.error::before{
+			width:13px;
+			height: 6px;
+			position:absolute;
+			top: 8px;
+			left: -10px;
+		}
